@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+
+
+    <header>
+        <div>
+            <i class='bx bxs-ball' ></i>
+            Dog
+            Lovers Yy           
+        </div>
+        <nav>
+            <ul class="headermenu">
+                <li><a class="headermenuitem" href="#home">Home</a></li>
+                <li><a class="headermenuitem" href="#">Services</a></li>
+                <li><a class="headermenuitem" href="#products">Products</a></li>
+                <li><a class="headermenuitem" href="#">About</a></li>
+                <li><a class="headermenuitem" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div>
+            <i class='bx bx-menu'></i>
+        </div>
+
+    </header>
+    <main>
+        <h1 class="productHeader">Våra produkter</h1>
+        <section class="products">
+            <article>
+                <img src="https://picsum.photos/300/300?1">
+                <div>
+                    <div >Kaffemugg</div>
+                    <div>Lorem, ipsum dolor.</div>
+                    <a class="primary-button" href="#">Purchase</a>
+                </div>
+            </article>
+            <article>
+                <img src="https://picsum.photos/300/300?2">
+                <div>
+                    <div >Penna</div>
+                    <div>Lorem ipsum dolor sit.</div>
+                    <a class="primary-button" href="#">Purchase</a>
+                </div>
+            </article>
+            <article>
+                <img src="https://picsum.photos/300/300?3">
+                <div>
+                    <div >Dator</div>
+                    <div>Lorem ipsum dolor sit.</div>
+                    <a class="secondary-button" href="#">Purchase</a>
+                </div>
+            </article>
+            <article>
+                <img src="https://picsum.photos/300/300?4">
+                <div>
+                    <div >Dator2</div>
+                    <div>Lorem ipsum dolor sit.</div>
+                    <a class="primary-button" href="#">Purchase</a>
+                </div>
+            </article>
+            <article>
+                <img src="https://picsum.photos/300/300?5">
+                <div>
+                    <div >Dator3</div>
+                    <div>Lorem ipsum dolor sit.</div>
+                    <a class="primary-button" href="#">Purchase</a>
+                </div>
+            </article>
+
+
+        </section>
+
+        <section class="quotes">
+            <h1 class="quoteHeader">Lite roliga quotes</h1>
+            <button id="fetchQuotes">FETCH</button>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Namn</th>
+                        <th>Quote</th>    
+                    </tr>
+                </thead>
+                <tbody id="quoteBody">
+                    <tr>
+                        <td>Alan Perlis</td>
+                        <td>It is easier to change the specification to fit the program than vice versa.</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h1 class="plusHeader">Fantastiska plussaren</h1>
+
+                <form>
+                    <input type="text" id="tal1" placeholder="tal1" />
+                    <input type="text" id="tal2" placeholder="tal2" />
+                    <h3>Svaret är:</h3>
+                    <span id="resultat"></span>
+                </form>
+
+        </section>
+    </main>
+
+    
+    <!-- test -->
+    
+    <footer>
+        (C) Stefan <a href="/contact.html">Kontakta oss</a>
+    </footer>
+    <script src="script.js" type="module" />
+</body>
+</html>
+
+<!-- 
+Hämta från 
+https://programming-quotesapi.vercel.app/api/bulk
+ -->

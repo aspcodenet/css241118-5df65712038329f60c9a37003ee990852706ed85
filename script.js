@@ -6,8 +6,11 @@ const fetchQuotesButton = document.getElementById("fetchQuotes")
 const quoteBody = document.getElementById("quoteBody")
 
 
-
-
+const urlParams = new URLSearchParams(window.location.search);
+const q = urlParams.get('q');
+alert(q)
+const id = urlParams.get('id');
+alert(id)
 
 
 async function fetchJson(){
